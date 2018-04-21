@@ -1,0 +1,5 @@
+1. Is this game GPU or CPU bound?
+A. This game is GPU bound, since a greater time for Game_Tick is spent in FrameTimer_GetFrameTimer_LockTime than Game_mPhysWorld.
+
+2. Which takes longer: Animation or Physics?
+A. Animation.
